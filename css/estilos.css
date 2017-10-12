@@ -16,87 +16,88 @@ body {
 	background: #E5E5E5;
 }
 
-main {
+.container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 85%;
-/*
-	background: #FFFFFF;
-*/
+	margin-top: 10px;
 }
 
 /* Esta parte es el menu */
 
-header img {
-	margin-bottom: -3px;
-	width: 100px;
-}
-
-header h1 {
-	padding: 10px;
-}
-
-header nav {
+nav {
 	background: #258CD1;
-	cursor:default;
-	height:50px;
-	width:100%;
-	//margin-top:20px;
+	cursor: default;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
-header nav ul li a#nav-menu {
-	display:none;
+nav ul li a#nav-menu {
+	display: none;
 }
 
-header nav ul li a {
-	color:#FFF;
-	display:block;
-	height:50px;
-	line-height:37px;
-	margin:0;
-	outline:0;
-	padding:5px 20px;
-	text-decoration:none;
+nav ul li a {
+	color: #FFF;
+	display: block;
+	height: 50px;
+	line-height: 37px;
+	margin: 0;
+	outline: 0;
+	padding: 5px 20px;
+	text-decoration: none;
 }
 
-header nav ul li {
-	display:inline-block;
+nav ul li {
+	display: inline-block;
 }
 
-header nav ul li a:hover {
+nav ul li a:hover {
 	background: #2176B0;
-	color:#FFF;
-	text-decoration:none;
+	color: #FFF;
+	text-decoration: none;
 }
 
-header nav ul {
-	list-style-type:none;
+nav ul {
+	list-style-type: none;
 }
 
 /* Ahora vamos con el texto */
 
-section {
-	background: #FFFFFF;
-	width: 50%;
-	padding: 10px;
+.section {
+	width: 69%;
 	float: left;
+	background: #FFFFFF;
+	margin-bottom: 10px;
 }
 
-aside {
-	background: #FF8200;
+.section .article {
+	padding: 20px 15px;
+}
+
+.section .article h1 {
+	font-size: 20px;
+}
+
+.aside {
 	width: 30%;
-	padding: 10px;
 	float: right;
+	background: #FF7E00;
+	margin-bottom: 10px;
 }
 
-footer {
+.aside .article {
+	padding: 20px 15px;
+}
+
+.footer {
 	background: #000000;
 	width: 100%;
 	float: left;
 	height: 50px;
 }
 
-footer p {
+.footer p {
 	color: #FFFFFF;
 	text-align: center;
 	line-height: 50px;
